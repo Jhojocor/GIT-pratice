@@ -13,4 +13,5 @@ Below I will show the commands I found there
 | `git commit` | Record changes with a message | <https://git-scm.com/docs/git-commit> |
 
 Make Small Commits
+
 Small commits make it easier to identify where issues were introduced. With granular commits, you can more effectively use tools like git bisect to pinpoint problems. Once a defect is identified, small commits help us limit the risk and testing scope of changing existing code.
