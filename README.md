@@ -11,3 +11,6 @@ Below I will show the commands I found there
 | `git Add` | The command adds new or changed files in your working directory to the Git staging area | https://github-com.translate.goog/git-guides/git-add?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc |
 | `git reset` | If the commit only exists in your local repository and you want to remove the most recent commit you can use this command | https://www.geeksforgeeks.org/git/how-to-delete-commit-in-git |
 | `git commit` | Record changes with a message | <https://git-scm.com/docs/git-commit> |
+
+Make Small Commits
+Small commits make it easier to identify where issues were introduced. With granular commits, you can more effectively use tools like git bisect to pinpoint problems. Once a defect is identified, small commits help us limit the risk and testing scope of changing existing code.
